@@ -1,0 +1,9 @@
+package com.learn.pattern.state;
+
+public class NoState extends State {
+
+	public void doSomething(Person person) {
+		System.out.println(person.getHour() +  "未定义");
+	}
+
+}
